@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Where Will Your Next Vacation Take You?</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1">
+          <!-- Heading -->
+          <h2>Where Will Your Next Vacation Take You?</h2>
+          <h4>Istanbul, Turkey? Buenos Aires, Argentina?<br><small>Either way you're going on vacation. Grab your passport, and lets go!</small></h4>
+
+          <!-- Beach Image -->
+          <img class="img-responsive" src="img/beach.jpg" alt="Ocean" />
+
+          <!-- Vacation Radio Questions Form -->
+          <form class="" action="index.html" method="post">
+            <!-- Coffee Question -->
+            <div class="radio">
+              <p class="radio-btn-title">What absolutely must accompany your coffee?</p>
+              <label>
+                <input type="radio" name="coffee" id="blackcoffee">
+                The cup it's in!
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="coffee" id="sugar">
+                Sugar
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="coffee" id="cream">
+                Cream
+              </label>
+            </div>
+
+            <!-- Zombie Question -->
+            <div class="radio">
+              <p class="radio-btn-title">You can have unlimited anything teleported to you during the Zombie Apocalypse. What'll it be?</p>
+              <label>
+                <input type="radio" name="zombie" value="water">
+                Water
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="zombie" value="food">
+                Food
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="zombie" value="katana">
+                <a href="http://walkingdead.wikia.com/wiki/Katana" target="_blank">Michonne's Katana</a>
+              </label>
+            </div>
+            <button class="btn btn-default" type="submit">Submit </button>
+
+          </form>
+
+        </div>
+
+      </div>
+
+    </div>
+  </body>
+</html>
