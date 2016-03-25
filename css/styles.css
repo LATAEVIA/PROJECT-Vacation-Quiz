@@ -1,6 +1,3 @@
-.hidden{
-  display: none;
-}
 .cold-hide{
   display: none;
 }
@@ -12,4 +9,15 @@
 }
 .img-responsive{
   margin: 0 auto;
+}
+.container{
+  background-color: #F3FFFC;
+}
+body {
+  background-color: #FCFFF8;
+}
+#destinations{
+  border: 1px dotted #337AB7;
+  margin: 10px;
+  text-align: center;
 }

@@ -6,17 +6,26 @@ $(document).ready(function() {
     var lrcInput = $("input:radio[name=lrc]:checked").val();
     var collabInput = $("input:radio[name=collab]:checked").val();
     if (coffeeInput==="cream"){
-      $(".machu-hide").show();
+      $(".machu-hide").fadeIn();
+      $(".cold-hide").fadeOut();
+      $(".warm-hide").hide();
     };
     if (coffeeInput==="blackcoffee"){
-      $(".cold-hide").show();
+      $(".cold-hide").fadeIn();
+      $(".machu-hide").hide();
+      $(".warm-hide").hide();
     };
     if (coffeeInput==="sugar"){
-      $(".warm-hide").show();
+      $(".warm-hide").fadeIn();
+      $(".cold-hide").hide();
+      $(".machu-hide").hide();
     };
+    $("html, body").animate({ scrollTop: $(document).height() }, "slow");
+    return false;
+    });
     event.preventDefault();
   });
-});
+
 
     // } else if (coffeeInput==="cream" && zombieInput==="water" && annoyInput==="hipsters" && lrcInput==="ambi" && collabInput==="elton"){
     //   $(".warm-hide").show();
