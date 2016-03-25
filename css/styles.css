@@ -10,3 +10,6 @@
 .warm-hide{
   display: none;
 }
+.img-responsive{
+  margin: 0 auto;
+}
